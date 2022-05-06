@@ -1,0 +1,30 @@
+name: WM3B7
+
+channels:
+    - defaults
+    - conda-forge
+
+dependencies:
+    - python=3.8 
+    - numpy
+    - matplotlib
+    - pandas
+    - bokeh
+    - notebook
+    - scikit-learn
+    - scikit-image
+    - cartopy
+    - geopandas
+    - folium
+    - seaborn
+    - pip
+    - ipywidgets
+    - nltk 
+    - spacy
+    - pip:
+        - pygal
+        - opencv-contrib-python
+        - sphinxcontrib-contentui
+        - beautifulsoup4
+        - lxml
+        - html5lib
